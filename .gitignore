@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env.production
+*.tsbuildinfo
+next-env.d.ts
+
+# Archivos temporales
+Validacion_Best_Waist.xlsx
+~$*.xlsx
+*.webp.bak
+subir-a-github.bat

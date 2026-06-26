@@ -1,0 +1,51 @@
+[
+  {
+    "id": "faja-cinturilla",
+    "name": "Faja cinturilla",
+    "category": "upper_body",
+    "description": "Faja tipo cinturilla de compresión",
+    "file": "faja-cinturilla.jpg"
+  },
+  {
+    "id": "jersey-deportivo",
+    "name": "Jersey deportivo",
+    "category": "upper_body",
+    "description": "Jersey deportivo de manga corta",
+    "file": "jersey-deportivo.jpg"
+  },
+  {
+    "id": "chamarra",
+    "name": "Chamarra",
+    "category": "upper_body",
+    "description": "Chamarra casual",
+    "file": "chamarra.jpg"
+  },
+  {
+    "id": "camisa-azul",
+    "name": "Camisa azul de vestir",
+    "category": "upper_body",
+    "description": "Camisa formal azul de manga larga",
+    "file": "camisa-azul.jpg"
+  },
+  {
+    "id": "traje-sastre",
+    "name": "Traje sastre",
+    "category": "upper_body",
+    "description": "Traje sastre formal de vestir",
+    "file": "traje sastre.jpg"
+  },
+  {
+    "id": "vestido-negro",
+    "name": "Vestido negro corto",
+    "category": "dresses",
+    "description": "Vestido negro corto de tirantes",
+    "file": "vestido-negro.jpg"
+  },
+  {
+    "id": "pantalon-beige",
+    "name": "Pantalón beige",
+    "category": "lower_body",
+    "description": "Pantalón tipo chino color beige",
+    "file": "pantalon-beige.jpg"
+  }
+]
