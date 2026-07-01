@@ -402,15 +402,17 @@ export default function LandingPage() {
       {/* ── NAVBAR ── */}
       <nav className="fixed top-0 left-0 right-0 z-[100] bg-brand-black/95 backdrop-blur-md border-b border-brand-yellow/15 py-3">
         <div className="max-w-7xl mx-auto px-5 flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <Image
-              src="/img/best-waist-logo-web.webp"
-              alt="Fajas Best Waist — Logo"
-              width={40}
-              height={40}
-              className="rounded-full"
-              priority
-            />
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center">
+              <Image
+                src="/img/best-waist-logo-web.webp"
+                alt="Fajas Best Waist"
+                width={40}
+                height={40}
+                priority
+              />
+            </div>
+            <span className="text-white font-bold text-lg tracking-wide">Best <span className="text-brand-yellow">Waist</span></span>
             <span className="hidden sm:inline-flex items-center gap-1.5 bg-brand-yellow/10 border border-brand-yellow/30 px-3 py-1 rounded-full text-[0.7rem] font-semibold text-brand-yellow">
               <BadgeCheck className="w-3.5 h-3.5" />
               100% Mexicano
@@ -852,13 +854,17 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-5">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
-              <Image
-                src="/img/best-waist-logo-web.webp"
-                alt="Fajas Best Waist — Logo"
-                width={50}
-                height={50}
-                className="rounded-full mb-3"
-              />
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center">
+                  <Image
+                    src="/img/best-waist-logo-web.webp"
+                    alt="Fajas Best Waist"
+                    width={48}
+                    height={48}
+                  />
+                </div>
+                <span className="text-white font-bold tracking-wide">Best <span className="text-brand-yellow">Waist</span></span>
+              </div>
               <p className="text-sm text-gray-500 leading-relaxed">
                 Empresa 100% mexicana. Fajas de alta calidad para hombre y mujer con más de 15,000 fajas vendidas en Mercado Libre.
               </p>

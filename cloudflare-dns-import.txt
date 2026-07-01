@@ -1,0 +1,10 @@
+;;
+;; Domain: fajasbestwaist.com
+;; DNS Records for Vercel deployment
+;;
+
+;; Root domain → Vercel
+fajasbestwaist.com.	1	IN	CNAME	cname.vercel-dns.com.
+
+;; www → Vercel
+www.fajasbestwaist.com.	1	IN	CNAME	cname.vercel-dns.com.

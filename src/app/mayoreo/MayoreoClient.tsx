@@ -37,16 +37,18 @@ export default function MayoreoPage() {
       {/* ── NAVBAR ── */}
       <nav className="fixed top-0 left-0 right-0 z-[100] bg-brand-black/95 backdrop-blur-md border-b border-brand-yellow/15 py-3">
         <div className="max-w-7xl mx-auto px-5 flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <Link href="/" className="hover:opacity-80 transition">
-              <Image
-                src="/img/best-waist-logo-web.webp"
-                alt="Fajas Best Waist — Logo"
-                width={40}
-                height={40}
-                className="rounded-full"
-                priority
-              />
+          <div className="flex items-center gap-3">
+            <Link href="/" className="hover:opacity-80 transition flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center">
+                <Image
+                  src="/img/best-waist-logo-web.webp"
+                  alt="Fajas Best Waist"
+                  width={40}
+                  height={40}
+                  priority
+                />
+              </div>
+              <span className="text-white font-bold text-lg tracking-wide">Best <span className="text-brand-yellow">Waist</span></span>
             </Link>
             <span className="hidden sm:inline-flex items-center gap-1.5 bg-brand-yellow/10 border border-brand-yellow/30 px-3 py-1 rounded-full text-[0.7rem] font-semibold text-brand-yellow">
               <Store className="w-3.5 h-3.5" />
@@ -180,7 +182,7 @@ export default function MayoreoPage() {
 
           <div className="text-center mt-10">
             <p className="text-sm text-gray-500 mb-4">
-              Los descuentos se aplican sobre el precio público. Mezcla modelos, tallas y colores libremente.
+              Los descuentos se aplican sobre el precio público. Mezcla modelos y tallas libremente.
             </p>
             <a
               href={getWhatsAppUrl('Hola, quiero cotizar un pedido de mayoreo')}
@@ -208,7 +210,7 @@ export default function MayoreoPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon: TrendingUp, title: 'Producto de alta rotación', desc: 'Más de 15,000 ventas y 4.7 estrellas en Mercado Libre. Mercancía que no se queda en tu estante.' },
-              { icon: Package, title: 'Surtido flexible', desc: 'Mezcla modelos, tallas y colores en un solo pedido. Arma el lote que necesite tu negocio.' },
+              { icon: Package, title: 'Surtido flexible', desc: 'Mezcla modelos y tallas en un solo pedido. Arma el lote que necesite tu negocio.' },
               { icon: FileText, title: 'Factura CFDI', desc: 'Emitimos factura fiscal para que deduzcas tu compra de inventario.' },
               { icon: Truck, title: 'Envío a todo México', desc: 'Recibe tu mercancía en cualquier punto del país con guía de rastreo.' },
               { icon: ShieldCheck, title: 'Calidad consistente', desc: 'Misma calidad en cada lote. Producto probado por miles de clientes con mínimas devoluciones.' },
@@ -337,14 +339,16 @@ export default function MayoreoPage() {
       {/* ── FOOTER ── */}
       <footer className="bg-brand-dark border-t border-brand-yellow/10 py-8 text-center">
         <div className="max-w-7xl mx-auto px-5">
-          <Link href="/" className="inline-block hover:opacity-80 transition">
-            <Image
-              src="/img/best-waist-logo-web.webp"
-              alt="Fajas Best Waist — Logo"
-              width={40}
-              height={40}
-              className="rounded-full mx-auto"
-            />
+          <Link href="/" className="inline-flex items-center gap-3 hover:opacity-80 transition mx-auto">
+            <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center">
+              <Image
+                src="/img/best-waist-logo-web.webp"
+                alt="Fajas Best Waist"
+                width={40}
+                height={40}
+              />
+            </div>
+            <span className="text-white font-bold text-lg tracking-wide">Best <span className="text-brand-yellow">Waist</span></span>
           </Link>
           <p className="text-gray-500 text-xs mt-2">Empresa 100% Mexicana &bull; Facturamos &bull; MercadoLíder</p>
           <p className="text-gray-600 text-xs mt-1">
